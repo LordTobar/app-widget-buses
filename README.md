@@ -24,6 +24,15 @@ GTFS (DTPM) + predicciones iBus / RED web
 | 01   | `specs/01-backend-raspberry.md`       | Implementado |
 | 02   | `specs/02-widget-scriptable-paradero.md` | Implementado |
 | 03   | `specs/03-acceso-remoto-cloudflare.md` | Borrador    |
+| 04   | `specs/04-estilo-widget-tema.md`      | En revisión |
+
+## Agregar al inicio (iPhone)
+
+Ejecutar el script en la app solo muestra una preview. Para verlo en la pantalla principal:
+
+1. Mantén presionado un espacio vacío del inicio → **+** → **Scriptable** → tamaño → **Agregar widget**.
+2. Toca el widget → **Script** = `widget.js`.
+3. Tema: botón ◐ del widget (mediano/grande) o `Parameter` = `claro` / `oscuro` / `auto`.
 
 Otros documentos: `docs/bitacora.md` (qué se hizo y qué falló), `docs/backlog.md` (ideas para futuras specs).
 
